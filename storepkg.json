@@ -1,0 +1,30 @@
+{
+    "pkgver": 1,
+    "type": "app",
+
+    "name": "Despertar Del Cementerio",
+    "author": "ARK CFW",
+    "description": "",
+    "tag": "tool",
+    "link": "https://github.com/PSP-Arkfive",
+    "version": "10",
+    "download": {
+        "remote": "github:PSP-Arkfive/Despertar-Del-Cementerio/releases/download/latest/DC10.zip",
+        "compressed": true,
+        "targets": [
+                    { "file": "DC10/CIPL.ARK", "target": "ms0:/PSP/GAME/DC10/CIPL.ARK" },
+                    { "file": "DC10/DC10.ARK", "target": "ms0:/PSP/GAME/DC10/DC10.ARK" },
+                    { "file": "DC10/EBOOT.PBP", "target": "ms0:/PSP/GAME/DC10/EBOOT.PBP" },
+                    { "file": "DC10/FLASH0.ARK", "target": "ms0:/PSP/GAME/DC10/FLASH0.ARK" },
+                    { "file": "DC10/idsregeneration.prx", "target": "ms0:/PSP/GAME/DC10/idsregeneration.prx" },
+                    { "file": "DC10/intraFont-vlf.prx", "target": "ms0:/PSP/GAME/DC10/intraFont-vlf.prx" },
+                    { "file": "DC10/iop.prx", "target": "ms0:/PSP/GAME/DC10/iop.prx" },
+                    { "file": "DC10/ipl_update.prx", "target": "ms0:/PSP/GAME/DC10/ipl_update.prx" },
+                    { "file": "DC10/lflash_fdisk.prx", "target": "ms0:/PSP/GAME/DC10/lflash_fdisk.prx" },
+                    { "file": "DC10/libpsardumper.prx", "target": "ms0:/PSP/GAME/DC10/libpsardumper.prx" },
+                    { "file": "DC10/pspdecrypt.prx", "target": "ms0:/PSP/GAME/DC10/pspdecrypt.prx" },
+                    { "file": "DC10/usbdevice.prx", "target": "ms0:/PSP/GAME/DC10/usbdevice.prx" },
+                    { "file": "DC10/vlf.prx", "target": "ms0:/PSP/GAME/DC10/vlf.prx" }
+                ]
+    }
+}
